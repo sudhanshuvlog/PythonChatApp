@@ -1,3 +1,9 @@
+import socket
+import threading
+import getpass
+myp=socket.SOCK_DGRAM
+afn=socket.AF_INET 
+s=socket.socket(myp,afn)
 ip="172.31.7.83"
 port= 4321
 s.bind((ip,port))
